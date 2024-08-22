@@ -1,7 +1,5 @@
 package Lista_de_Exercicios_4.Abstracts;
 
-import java.util.Scanner;
-
 public abstract class AnimalVoadorAB extends AnimalAB{
     protected int qtdAsas;
     protected double envergaduraAsas;
