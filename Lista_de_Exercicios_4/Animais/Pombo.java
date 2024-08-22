@@ -12,6 +12,9 @@ public class Pombo extends AnimalVoadorAB {
         super(nome, tipoAnimal, habitat, altura, peso, qtdPatas);
     }
 
+    public Pombo(String nome){
+        this.nome = nome;
+    }
 
 
 }

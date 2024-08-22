@@ -8,5 +8,8 @@ public class Peixe extends AnimalMarinhoAB {
         super(nome, tipoAnimal, idade, habitat, altura, peso);
     }
 
+    public Peixe (String nome){
+        this.nome = nome;
+    }
 
 }

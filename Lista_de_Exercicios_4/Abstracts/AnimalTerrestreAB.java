@@ -13,11 +13,13 @@ public abstract class AnimalTerrestreAB extends AnimalAB{
     @Override
     public void moverse() {
         super.moverse();
-        System.out.println("O animal percorreu " + distanciaPercorrida + " metros");
+        System.out.println("O " + nome +" percorreu " + distanciaPercorrida + " metros");
     }
 
     @Override
     public void dormir() {
-        System.out.println("O animal dormiu " + qtdHorasDormidas + " horas");
+        System.out.println("O " + nome +" dormiu " + qtdHorasDormidas + " horas");
     }
+
+
 }

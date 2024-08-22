@@ -10,10 +10,16 @@ public class Elefante extends AnimalTerrestreAB {
         super(nome, tipoAnimal, idade, habitat, altura, peso, qtdPatas);
     }
 
+    public Elefante(String nome){
+        this.nome = nome;
+    }
+
     @Override
     public void comer() {
-        System.out.println("Quantos gramas de refeição o "+ tipoAnimal +" comeu em Quilos?");
+        System.out.println("Quanto de sua refeição o "+ nome +" comeu em Quilos?");
         qtdComida = new Scanner(System.in).nextDouble();
+        System.out.println("O " + nome + " comeu " + qtdComida + " quilos de sua refeição");
+
     }
 
 }

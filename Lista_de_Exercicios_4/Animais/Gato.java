@@ -11,10 +11,16 @@ public class Gato extends AnimalTerrestreAB {
         super(nome, tipoAnimal, idade, habitat, altura, peso, qtdPatas);
     }
 
+    public Gato(String nome){
+        this.nome = nome;
+    }
+
     @Override
     public void comer() {
-        System.out.println("Quantos gramas de refeição o "+ tipoAnimal +" comeu em gramas?");
+        System.out.println("Quanto de sua refeição o "+ nome +" comeu em gramas?");
         qtdComida = new Scanner(System.in).nextDouble();
+        System.out.println("O " + nome + " comeu " + qtdComida + " gramas de sua refeição");
+
     }
 
 
